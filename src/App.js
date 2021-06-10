@@ -15,7 +15,6 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/profiles' component={Profiles} />
-        {/* <Route exact path='/profiles/:id' component={Profiles} /> */}
         <Route exact path='/profiles/:id/profile-image' component={ProfileImage} />
       </Switch>
     </Router>

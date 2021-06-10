@@ -5,4 +5,6 @@
     /* box-shadow: 10px 10px; */
 }
 
-large-profile-image
+.large-profile-image {
+    width: 33%;
+}
