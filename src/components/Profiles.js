@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 export default function Profiles() {
+
     const [selectedProfile, setSelectedProfile] = useState({
         firstName: "",
         lastName: "",
@@ -23,7 +24,7 @@ export default function Profiles() {
             {data.contactProfiles.map((profile) => {
                 return (
                     <div>
-                        <h1 onClick={() => handleClick(profile)}>{profile.firstName} {profile.lastName}</h1>
+                         <h1 onClick={() => handleClick(profile)}>{profile.firstName} {profile.lastName}</h1>
                     </div>
                 )
             })}
